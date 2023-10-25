@@ -33,9 +33,9 @@ export const SliderComponent = () => (
         {
             sliders.map((slider, index) =>
 
-            <SwiperSlide key={index} className="relative flex items-center justify-center">
+            <SwiperSlide key={index} className="relative flex items-center justify-center  ">
             <img className="w-full h-[600px] rounded-md" src={slider} alt="Online Real-Time Village Local Market" />
-            <div className="absolute bottom-0 left-0 w-full p-4 font-bold bg-slate-400 bg-opacity-50 text-white">
+            <div className="absolute bottom-0 left-0 w-full p-4 font-bold bg-slate-400 bg-opacity-50 text-white text-center">
               <p className="text-2xl font-bold">Online Real-Time Village Local Market</p>
               <p className="text-lg">Discover fresh produce, handmade crafts, and more in our vibrant village market.</p>
             </div>
