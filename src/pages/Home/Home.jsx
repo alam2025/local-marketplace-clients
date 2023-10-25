@@ -11,14 +11,15 @@ import WhyWeLearn from './WhyWeLearn/WhyWeLearn';
 import CompanyCourses from '../CompanyCourses/CompanyCourses';
 import PeopleSay from './PeopleSay/PeopleSay';
 import Subscribe from './Subscribe/Subscribe';
+import DemoCarousel from './Slider/DemoCarousel';
 
 
 const Home = () => {
       const { theme, toggleTheme } = useContext(ThemeContext);
       return (
             <div >
-
-                  <Banner></Banner>
+                 <DemoCarousel/>
+                  {/* <Banner></Banner> */}
 
                   <SpecialServices></SpecialServices>
                   <PopularClasses />
