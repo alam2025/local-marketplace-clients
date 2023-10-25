@@ -10,10 +10,10 @@ import 'swiper/css/navigation';
 import { Autoplay, Navigation, Pagination } from 'swiper';
 
 const sliders = [
-    "https://i.ibb.co/ncrXc2V/1.png",
-    "https://i.ibb.co/B3s7v4h/2.png",
-    "https://i.ibb.co/XXR8kzF/3.png",
-    "https://i.ibb.co/yg7BSdM/4.png",
+    "https://assets-global.website-files.com/5ff1b99d0642837fd77d935d/61a5e5e3d2451b69a4d6f9c1_India%20vegetables.jpg",
+    "https://ausveg.com.au/app/uploads/2020/09/iStock_000010669704Large-scaled.jpg",
+    "https://cookieandkate.com/images/2015/02/tel-aviv-8.jpg",
+    "https://i.ytimg.com/vi/cfEPzU2A2n0/maxresdefault.jpg",
 ]
 export const SliderComponent = () => (
     <Swiper
@@ -33,7 +33,14 @@ export const SliderComponent = () => (
         {
             sliders.map((slider, index) =>
 
-                <SwiperSlide key={index}><img className='w-full h-[600px] rounded-mds' src={slider}></img></SwiperSlide>
+            <SwiperSlide key={index} className="relative flex items-center justify-center">
+            <img className="w-full h-[600px] rounded-md" src={slider} alt="Online Real-Time Village Local Market" />
+            <div className="absolute bottom-0 left-0 w-full p-4 font-bold bg-slate-400 bg-opacity-50 text-white">
+              <p className="text-2xl font-bold">Online Real-Time Village Local Market</p>
+              <p className="text-lg">Discover fresh produce, handmade crafts, and more in our vibrant village market.</p>
+            </div>
+          </SwiperSlide>
+          
             )
         }
 

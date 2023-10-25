@@ -12,13 +12,15 @@ import CompanyCourses from '../CompanyCourses/CompanyCourses';
 import PeopleSay from './PeopleSay/PeopleSay';
 import Subscribe from './Subscribe/Subscribe';
 import DemoCarousel from './Slider/DemoCarousel';
+import { SliderComponent } from './SliderComponent';
 
 
 const Home = () => {
       const { theme, toggleTheme } = useContext(ThemeContext);
       return (
             <div >
-                 <DemoCarousel/>
+                  <SliderComponent></SliderComponent>
+                 {/* <DemoCarousel/> */}
                   {/* <Banner></Banner> */}
 
                   <SpecialServices></SpecialServices>
