@@ -31,7 +31,10 @@ const Vagitables = () => {
    <p className="card-price text-gray-600">Price per kg: {vegetable.price_per_kg} BDT</p>
    <p className="card-seller text-gray-600">Seller: {vegetable.seller_name}</p>
    <div className="card-actions justify-end mt-4">
-     <button className="btn btn-primary bg-blue-500 hover:bg-blue-600 text-white hover:shadow-md transform hover:scale-105 transition-transform">Buy Now</button>
+   <button className="bg-black-500 text-black hover:bg-blue-700 mt-5 font-bold py-2 px-4 rounded-full border border-blue-500 shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+         Buy Now
+        </button>
+
    </div>
  </div>
 </div>
