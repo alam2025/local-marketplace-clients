@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Banner from './Banner';
 import PopularClasses from './PopularClasses/PopularClasses';
 import FeaturedInstructors from './FeaturedInstructors/FeaturedInstructors';
@@ -13,18 +13,37 @@ import PeopleSay from './PeopleSay/PeopleSay';
 import Subscribe from './Subscribe/Subscribe';
 import DemoCarousel from './Slider/DemoCarousel';
 import { SliderComponent } from './SliderComponent';
+import Vagitables from './Vagitables/Vagitables';
 
 
 const Home = () => {
       const { theme, toggleTheme } = useContext(ThemeContext);
+      const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
       return (
             <div >
                   <SliderComponent></SliderComponent>
                   {/* <DemoCarousel/> */}
                   {/* <Banner></Banner> */}
 
-                  <section className='flex justify-between items-center m-3'>
-                        <div className="dropdown w-[30%]">
+
+
+                  <section className='flex justify-between  m-3'>
+                        <div className="dropdown w-[30%]" style={{
+    backgroundImage: 'url("https://wallpaperaccess.com/full/735728.jpg")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    height:'100vh',
+    textAlign:'center'
+  }}>
                               <label
                                     tabIndex={0}
                                     className="btn m-1"
@@ -59,20 +78,31 @@ const Home = () => {
                               </ul>
 
                         </div>
-                        <div>
-  <p className="text-2xl text-gray-600">
+                        <div
+  style={{
+    backgroundImage: 'url("https://www.wallpaperup.com/uploads/wallpapers/2013/02/15/40496/4454d6e36ca93f4bda3bac2dfab8ed7e.jpg")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    height:'100vh',
+    textAlign:'center'
+  }}
+>
+  <p className="text-2xl text-white text-center">
     স্থানীয় এবং তাজা সবজি-ফলের এক দুর্গম জগতে ভ্রমণ করুন
   </p>
-  <p className="text-lg text-gray-600 mt-2">
+  <p className="text-lg text-white mt-2">
     আমাদের অনুসন্ধান করুন এবং বাংলাদেশের সর্বশ্রেষ্ঠ সবজি-ফলের বাজার আবিষ্কার করুন।
   </p>
-  <p className="text-lg text-gray-600 mt-2">
+  <p className="text-lg text-white mt-2">
     তৃতীয়পক্ষে আমাদের সার্বিক পুষ্টির সবজি-ফল পৌঁছানো বাজারে আপনার নিকটবর্তী কৃষকের উৎপাদন পর্যালোচনা করুন।
   </p>
 </div>
 
 
                   </section>
+
+                  <Vagitables></Vagitables>
                   <SpecialServices></SpecialServices>
                   <PopularClasses />
                   <WhyWeLearn />
