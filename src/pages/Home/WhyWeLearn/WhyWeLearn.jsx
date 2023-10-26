@@ -3,7 +3,7 @@ import learn from '../../../../public/learn.json'
 import Lottie from 'react-lottie';
 import {MdOutlineAssignmentTurnedIn} from 'react-icons/md'
 const WhyWeLearn = () => {
-      console.log(learn);
+      // console.log(learn);
       const defaultOptions = {
             loop: true,
             autoplay: true,

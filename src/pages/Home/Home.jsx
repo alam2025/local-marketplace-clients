@@ -14,19 +14,20 @@ import Subscribe from './Subscribe/Subscribe';
 import DemoCarousel from './Slider/DemoCarousel';
 import { SliderComponent } from './SliderComponent';
 import Vagitables from './Vagitables/Vagitables';
+import Email from './Email/Email';
 
 
 const Home = () => {
       const { theme, toggleTheme } = useContext(ThemeContext);
       const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
+      const handleMouseEnter = () => {
+            setIsHovered(true);
+      };
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
+      const handleMouseLeave = () => {
+            setIsHovered(false);
+      };
       return (
             <div >
                   <SliderComponent></SliderComponent>
@@ -37,17 +38,17 @@ const Home = () => {
 
                   <section className='flex justify-between  m-3'>
                         <div className="dropdown w-[30%]" style={{
-    backgroundImage: 'url("https://wallpaperaccess.com/full/735728.jpg")',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    height:'100vh',
-    textAlign:'center'
-  }}>
+                              backgroundImage: 'url("https://wallpaperaccess.com/full/735728.jpg")',
+                              backgroundSize: 'cover',
+                              backgroundPosition: 'center',
+                              backgroundRepeat: 'no-repeat',
+                              height: '100vh',
+                              textAlign: 'center'
+                        }}>
                               <label
                                     tabIndex={0}
                                     className="btn m-1"
-                                   
+
                               >
                                     সব ক্যাটাগরি
                               </label>
@@ -79,32 +80,62 @@ const Home = () => {
 
                         </div>
                         <div
-  style={{
-    backgroundImage: 'url("https://www.wallpaperup.com/uploads/wallpapers/2013/02/15/40496/4454d6e36ca93f4bda3bac2dfab8ed7e.jpg")',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    height:'100vh',
-    textAlign:'center'
-  }}
->
-  <p className="text-2xl text-white text-center">
-    স্থানীয় এবং তাজা সবজি-ফলের এক দুর্গম জগতে ভ্রমণ করুন
-  </p>
-  <p className="text-lg text-white mt-2">
-    আমাদের অনুসন্ধান করুন এবং বাংলাদেশের সর্বশ্রেষ্ঠ সবজি-ফলের বাজার আবিষ্কার করুন।
-  </p>
-  <p className="text-lg text-white mt-2">
-    তৃতীয়পক্ষে আমাদের সার্বিক পুষ্টির সবজি-ফল পৌঁছানো বাজারে আপনার নিকটবর্তী কৃষকের উৎপাদন পর্যালোচনা করুন।
-  </p>
-</div>
+                              style={{
+                                    backgroundImage: 'url("https://www.wallpaperup.com/uploads/wallpapers/2013/02/15/40496/4454d6e36ca93f4bda3bac2dfab8ed7e.jpg")',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat',
+                                    height: '100vh',
+                                    textAlign: 'center'
+                              }}
+                        >
+                              <p className="text-2xl text-white text-center">
+                                    স্থানীয় এবং তাজা সবজি-ফলের এক দুর্গম জগতে ভ্রমণ করুন
+                              </p>
+                              <p className="text-lg text-white mt-2">
+                                    আমাদের অনুসন্ধান করুন এবং বাংলাদেশের সর্বশ্রেষ্ঠ সবজি-ফলের বাজার আবিষ্কার করুন।
+                              </p>
+                              <p className="text-lg text-white mt-2">
+                                    তৃতীয়পক্ষে আমাদের সার্বিক পুষ্টির সবজি-ফল পৌঁছানো বাজারে আপনার নিকটবর্তী কৃষকের উৎপাদন পর্যালোচনা করুন।
+                              </p>
+                        </div>
 
 
                   </section>
 
+
+
+
                   <Vagitables></Vagitables>
-                  <SpecialServices></SpecialServices>
-                  <PopularClasses />
+                  <section>
+                  <div className="marquee">
+
+  <div className="btn-group">
+    <marquee direction="left" scrollamount="6">
+      <button className="btn ">20% Discount</button>
+      <button className="btn">30% Discount</button>
+      <button className="btn">40% Discount</button>
+      <button className="btn">50% Discount</button>
+    </marquee>
+  </div>
+</div>
+                  <div className="marquee">
+
+  <div className="btn-group">
+    <marquee direction="right" scrollamount="4">
+      <button className="btn ">20% Discount</button>
+      <button className="btn">30% Discount</button>
+      <button className="btn">40% Discount</button>
+      <button className="btn">50% Discount</button>
+    </marquee>
+  </div>
+</div>
+
+                  </section>
+
+                  <Email></Email>
+               
+            
                   <WhyWeLearn />
                   <CompanyCourses />
                   <FeaturedInstructors></FeaturedInstructors>
