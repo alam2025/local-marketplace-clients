@@ -30,7 +30,18 @@ const Header = ({ toggleTheme, theme }) => {
       // console.log(selectedCourse);
       const navTabs = (
             <>
-                  <li>
+    <div className="flex items-center space-x-2">
+      <input
+        type="text"
+        placeholder="Search"
+        className="p-2 rounded-xl bg-slate-400 focus:outline-none focus:ring-2 focus:ring-fuchsia-500"
+      />
+      <button className="btn btn-sm border-none rounded-xl bg-fuchsia-500 text-white hover:bg-fuchsia-600">
+        Search
+      </button>
+    </div>
+            
+                  {/* <li>
                         <Link to="/"
                               className={`${location?.pathname === '/' ? 'active' : ""}`}>
                               Home
@@ -50,7 +61,7 @@ const Header = ({ toggleTheme, theme }) => {
                               className={`${location?.pathname === '/courses' ? 'active' : ""}`} >
                               Courses
                         </Link>
-                  </li>
+                  </li> */}
                   <li>
                         {(user && !isAdmin && !itInstructor) && <Link to="/dashboard/selected-courses"
                               className={`${location?.pathname === '/dashboard/enrollCourse' ? 'active' : ""} relative mr-10`}>

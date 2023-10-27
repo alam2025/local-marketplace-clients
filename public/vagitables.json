@@ -1,0 +1,113 @@
+[
+      {
+        "id": 1,
+        "name": "পটল (Pointed Gourd)",
+        "price_per_kg": 50,
+        "image_url": "https://www.odhikar.news/assets/news_photos/2020/07/08/image-150369-1594230882.jpg",
+        "seller_name": "Seller A"
+      },
+      {
+        "id": 2,
+        "name": "বেগুন (Eggplant)",
+        "price_per_kg": 30,
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHlThM6xeiwduoIYyZ1Q2WtRIGWen2nv_x9jOsy9YvIh0USbHgwivYbSTAWHpjVqa-fatLNACHEjZTCAvQSxXM2Xm0Y_LKOrSHnbjTuCxxz6k7B7z4rfro57nL8gSfYOlZxcEGiYof-R6YxvzHcKgDpZyvo93ebml2QfubUO-1hUowtRIOcGTK9M27bA/w1200-h630-p-k-no-nu/05-06-22-padma-setu-1.jpg",
+        "seller_name": "Seller B"
+      },
+      {
+        "id": 3,
+        "name": "পালং শাক (Spinach)",
+        "price_per_kg": 25,
+        "image_url": "https://agrobangla.com/wp-content/uploads/2020/03/Spinach.jpg",
+        "seller_name": "Seller C"
+      },
+      {
+        "id": 4,
+        "name": "ইlish (Hilsa Fish)",
+        "price_per_kg": 300,
+        "image_url": "https://im.indiatimes.in/media/content/2017/Jan/hilsa_inside_1484643732.jpg",
+        "seller_name": "Seller D"
+      },
+      {
+        "id": 5,
+        "name": "পুঁটি (Prawn)",
+        "price_per_kg": 200,
+        "image_url": "https://fishbazarbd.com/wp-content/uploads/2020/12/puti-1.jpg",
+        "seller_name": "Seller E"
+      },
+      {
+        "id": 6,
+        "name": "রুই (Rohu Fish)",
+        "price_per_kg": 150,
+        "image_url": "https://www.teahub.io/photos/full/202-2022080_rohu-fish.jpg",
+        "seller_name": "Seller F"
+      },
+      {
+        "id": 7,
+        "name": "আঙ্গুর (Grapes)",
+        "price_per_kg": 80,
+        "image_url": "https://i.pinimg.com/originals/fd/8c/14/fd8c144b0eb1ad2fc6e2ca16a9f9e923.jpg",
+        "seller_name": "Seller G"
+      },
+     
+      {
+        "id": 9,
+        "name": "আম (Mango)",
+        "price_per_kg": 40,
+        "image_url": "https://wallpapercave.com/wp/wp2756457.jpg",
+        "seller_name": "Seller I"
+      },
+      {
+            "id": 10,
+            "name": "বাঁধাকোপি (Cabbage)",
+            "price_per_kg": 35,
+            "image_url": "https://www.gardeningknowhow.com/wp-content/uploads/2019/12/cabbages-1024x680.jpg",
+            "seller_name": "Seller J"
+          },
+          {
+            "id": 11,
+            "name": "লাউ (Bottle Gourd)",
+            "price_per_kg": 40,
+            "image_url": "https://m.media-amazon.com/images/I/51CfirlfTIL._AC_SS450_.jpg",
+            "seller_name": "Seller K"
+          },
+          {
+            "id": 12,
+            "name": "টমেটো (Tomato)",
+            "price_per_kg": 45,
+            "image_url": "https://www.thespruce.com/thmb/0KqaCbLoCz8OFgAhKFZUP2Aolto=/5750x3825/filters:fill(auto,1)/tips-for-growing-tomatoes-in-containers-848216-06-41ce3f715bd74adc94a18d6cbae3bf7c.jpg",
+            "seller_name": "Seller L"
+          },
+          {
+            "id": 13,
+            "name": "আলু (Potato)",
+            "price_per_kg": 25,
+            "image_url": "https://b2bmap.com/product-image/screenshot_20210804_184632-1628345687.jpg",
+            "seller_name": "Seller M"
+          },
+          {
+            "id": 14,
+            "name": "কলা (Banana)",
+            "price_per_kg": 55,
+            "image_url": "https://i.pinimg.com/originals/3a/dd/b5/3addb5e0a47427d6f7c29c1f21a07a70.jpg",
+            "seller_name": "Seller N"
+          },
+          
+          {
+            "id": 16,
+            "name": "কুমড়ো (Pumpkin)",
+            "price_per_kg": 30,
+            "image_url": "https://akm-img-a-in.tosshub.com/lingo/atbn/images/story/202203/fotojet_-_2022-03-10t152453.388-sixteen_nine.jpg?size=948:533",
+            "seller_name": "Seller P"
+          },
+         
+        
+         
+          {
+            "id": 20,
+            "name": "জাম (Blackberry)",
+            "price_per_kg": 75,
+            "image_url": "https://i.pinimg.com/originals/13/30/88/133088930f4402940c5fb74625e94303.jpg",
+            "seller_name": "Seller T"
+          }
+    ]
+    
